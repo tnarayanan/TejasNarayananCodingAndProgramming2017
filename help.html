@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>House of Fun Help</title>
+        <meta name="description" content="Help guide for the House of Fun Software">
+        <!-- <link rel="stylesheet" href="main.css"> -->
+    </head>
+    
+    <body>
+        <h1>House of Fun Software Help</h1>
+        
+        <ul>
+            <li><a href="help.html#login">Login Screen</a></li>
+            <li><a href="help.html#main">Main Screen</a></li>
+            
+            <li><a href="help.html#employees">Employee Database</a>
+                <ul>
+                    <li><a href="help.html#viewemployees">View Employees</a></li>
+                    <li><a href="help.html#addemployee">Add Employee</a></li>
+                    <li><a href="help.html#editemployee">Edit Employee</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="help.html#attendance">Visitor Attendance</a>
+                <ul>
+                    <li><a href="help.html#viewattendance">View Visitor Attendance</a></li>
+                    <li><a href="help.html#graphs">Attendance Graphs</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="help.html#schedule">Employee Schedules</a>
+                <ul>
+                    <li><a href="help.html#viewschedules">View Employee Schedules</a></li>
+                    <li><a href="help.html#editschedule">Edit Employee Schedule</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div id="login">
+            <h2>Login Screen</h2>
+            <p>In the login screen, enter the username and password of your account.</p>
+            <p>If you have not entered this information correctly, you will be prompted to enter valid information.</p>
+        </div>
+        
+        <div id="main">
+            <h2>Main Screen</h2>
+            <p>The main screen provides access to the Employee Database section, the Visitor Attendance,  and the Employee Scheduling section.</p>
+            <p>Click one of these buttons to go to the respective section.</p>
+        </div>
+        
+        <div id="employees">
+            <h2>Employee Database</h2>
+            <h3 id="viewemployees">View Employees</h3>
+                <p>This screen provides a detailed view of employee data.</p>
+                <p>Click "Add" to add new employee.</p>
+                <p>Click an employee's row in the table and click "Edit" to edit their data.</p>
+            <h3 id="addemployee">Add Employee</h3>
+                <p>With this screen, you can add new employees by filling in each field.</p>
+            <h3 id="editemployee">Edit Employee</h3>
+                <p>This screen allows you to edit an employee's data easily by changing fields.</p>
+            
+        </div>
+        
+        <div id="attendance">
+            <h2>Visitor Attendance</h2>
+            <h3 id="viewattendance">View Visitor Attendance</h3>
+                <p>This screen provides an easy way to keep track of visitor attendance.</p>
+                <p>Click "+1 Adult" if an adult comes in and "+1 Child" when a child comes in.</p>
+                <p>Select a date in the date picker and click "Generate" to generate the attendance graph for that day.</p>
+            <h3 id="graphs">Attendance Graphs</h3>
+                <p>Once you have selected a date and clicked "generate", if valid attendance data is present, a graph of attendance will appear.</p>
+                <p>Print this graph by clicking "Print".</p>
+        </div>
+        
+        <div id="schedule">
+            <h2>Employee Schedules</h2>
+            <h3 id="viewschedules">View Employee Schedules</h3>
+                <p>This screen allows you to edit employee's schedules.</p>
+                <p>Select a date in the date picker and click the "Go" button to view schedules for that date.</p>
+                <p>Click an employee's row in the table and click "Edit" to edit their schedule for that date.</p>
+            <h3 id="editschedule">Edit Schedule</h3>
+                <p>With this screen, you can edit schedules by selecting an option from each dropdown.</p>
+        </div>
+        
+        
+    </body>
+</html>
